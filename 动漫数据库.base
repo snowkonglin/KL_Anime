@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.inFolder("我的动漫/主页")
+    - file.fullname.endsWith(".md")
+views:
+  - type: cards
+    name: 视图
+    order:
+      - file.name
+      - 开播日期
+      - tags
+      - 观看状态
+    image: note.封面
+    imageFit: contain
+    cardSize: 290

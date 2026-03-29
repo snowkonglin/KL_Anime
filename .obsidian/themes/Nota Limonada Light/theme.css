@@ -1,0 +1,44 @@
+body {
+	--radius-s: 4px; /* 小圆角 */
+	--radius-m: 8px; /* 中圆角 */
+	--radius-l: 12px; /* 大圆角 */
+	--input-radius: 6px; /* 输入框圆角 */
+	--tab-radius-active: 6px;
+	--checkbox-radius: 4px;
+	--toggle-radius: 12px; /* 开关整体圆角 */
+	--toggle-thumb-radius: 50%; /* 开关滑块做成圆形 */
+	--slider-thumb-radius: 50%; /* 滑块圆形 */
+}
+
+
+.workspace-tab-header.is-active::before,
+.workspace-tab-header.is-active::after {
+	display: none;
+}
+
+svg * {
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0;
+}
+
+.menu {
+	padding: var(--size-2-1);
+}
+
+.menu-item {
+	padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.theme-light {
+	--background-primary: #fefdf6;
+	--background-secondary: #fbfbe0;
+	--color-base-70: #3b5e40;
+	--color-base-100: #1a1a1a;
+	--titlebar-background-focused: #fbfbe0;
+}

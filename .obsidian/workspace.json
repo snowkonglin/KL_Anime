@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "10a3ef5c86147a3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a810131c70c00a27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f84aa91e1d831f3",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "动漫数据库.base",
+                "viewName": "视图"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "动漫数据库"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "de8d8bc736afa7ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6484f4c90d94382",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33b08c163351967f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ca796207f80eb772",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ":",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "46151c179621012f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 221
+  },
+  "right": {
+    "id": "a18b61e807fe8b70",
+    "type": "split",
+    "children": [
+      {
+        "id": "adc91ab52f2fbe13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1022b63e94ccdd2b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "我的动漫/属性模板/T-动画.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "T-动画 的反向链接列表"
+            }
+          },
+          {
+            "id": "bd016055d3511eb5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "我的动漫/属性模板/T-动画.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "T-动画 的出链列表"
+            }
+          },
+          {
+            "id": "b568b62651c9ff31",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "6de7663db36d0bdb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "2e74d6c8ae0eed24",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "我的动漫/属性模板/T-动画.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "T-动画 的大纲"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 310,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:新建数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "2f84aa91e1d831f3",
+  "lastOpenFiles": [
+    "我的动漫/主页/characters/咒术回战_死灭回游_前篇/封面.jpg",
+    "我的动漫/主页/characters/咒术回战_怀玉･玉折___涩谷事变/虎杖悠仁.jpg",
+    "我的动漫/主页/Re_从零开始的异世界生活_第四季_夺还篇.md",
+    "我的动漫/主页/characters/咒术回战_怀玉･玉折___涩谷事变/封面.jpg",
+    "动漫数据库.base",
+    "我的动漫/主页/咒术回战_死灭回游_前篇.md",
+    "我的动漫/主页/咒术回战_怀玉･玉折___涩谷事变.md",
+    "我的动漫/主页/龙珠Z_集聚一堂吧_悟空的世界.md",
+    "我的动漫/主页/埃罗芒阿老师_OVA.md",
+    "我的动漫/主页/characters/Re_从零开始的异世界生活_第三季_袭击篇/封面.jpg.md",
+    "我的动漫/主页/characters/命运石之门_0/阿万音鈴羽.jpg",
+    "我的动漫/主页/半田君.md",
+    "我的动漫/主页/characters/在下坂本，有何贵干_/8823.jpg",
+    "我的动漫/主页/characters/半田君/東野光太郎.jpg",
+    "我的动漫/主页/埃罗芒阿老师.md",
+    "欢迎.md",
+    "readme.md",
+    "我的动漫/主页/Re_从零开始的异世界生活_第三季_袭击篇.md",
+    "characters/Re_从零开始的异世界生活_第三季_袭击篇/ナツキ・スバル.jpg",
+    "characters/Re_从零开始的异世界生活_第三季_袭击篇/封面.jpg",
+    "characters/在地下城寻求邂逅是否搞错了什么_第四季_新章_迷宫篇/封面.jpg",
+    "我的动漫/主页/在地下城寻求邂逅是否搞错了什么_第四季_新章_迷宫篇.md",
+    "characters/Re_从零开始的异世界生活_第三季_袭击篇/封面.jpg.md",
+    "我的动漫/主页/灰与幻想的格林姆迦尔.md",
+    "characters/剧场版_OVERLORD_圣王国篇/レメディオス・カストディオ.jpg",
+    "characters/剧场版_OVERLORD_圣王国篇/ネイア・バラハ.jpg",
+    "我的动漫/主页/辉夜大小姐想让我告白_～天才们的恋爱头脑战～.md",
+    "characters/剧场版_OVERLORD_圣王国篇",
+    "我的动漫/主页/剧场版_OVERLORD_圣王国篇.md",
+    "我的动漫/主页/辉夜大小姐想让我告白_～天才们的恋爱头脑战～_OVA.md",
+    "我的动漫/主页/冰菓_应该持有之物.md",
+    "我的动漫/主页/笨蛋，测验，召唤兽_Blu-ray_BOX_特典_新Mini动画.md",
+    "我的动漫/主页/笨蛋，测验，召唤兽2.md",
+    "我的动漫/主页/Re_从零开始的异世界生活.md",
+    "characters/在世界尽头咏唱恋曲的少女YU-NO",
+    "我的动漫/主页/在世界尽头咏唱恋曲的少女YU-NO.md",
+    "characters/Fate_Grand_Order_-绝对魔兽战线巴比伦尼亚-",
+    "我的动漫/主页/Fate_Grand_Order_-绝对魔兽战线巴比伦尼亚-.md",
+    "characters/Fate_Grand_Order_藤丸立香想不明白_第3季",
+    "我的动漫/主页/Fate_Grand_Order_藤丸立香想不明白_第3季.md",
+    "characters/Fate_Grand_Order_藤丸立香想不明白",
+    "我的动漫/主页/Fate_Grand_Order_藤丸立香想不明白.md",
+    "characters/Fate_Grand_Order_藤丸立香想不明白_第2季",
+    "characters/Fate_Grand_Carnival",
+    "characters/Fate_Zero_cafe",
+    "characters/Fate_Zero_cafe_第2弹"
+  ]
+}

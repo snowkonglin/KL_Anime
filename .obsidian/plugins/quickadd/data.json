@@ -1,0 +1,218 @@
+{
+  "choices": [
+    {
+      "id": "a892866b-4c07-45e3-8b15-610db107897b",
+      "name": "添加动漫",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "添加动漫",
+        "id": "d72a56ac-25b2-4679-bde0-94abee6ef784",
+        "commands": [
+          {
+            "name": "ACGbangumiv2.1",
+            "type": "UserScript",
+            "id": "2c4f1287-037c-4aa8-b58e-3f2c48dc4a48",
+            "path": "ACGbangumiv2.1.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "b0254202-7086-4718-bd4b-fc0e4cdb2ede",
+      "name": "详情",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "1ca8a9e5-8dae-450c-bca1-98baadb2afd8",
+          "name": "Bangumi游戏",
+          "type": "Template",
+          "command": false,
+          "templatePath": "",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "27011474-1136-4a9f-b8a0-bd708c4be349",
+          "name": "Bangumi漫画",
+          "type": "Template",
+          "command": false,
+          "templatePath": "",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "3b5c1715-d720-4402-b103-791904b13edc",
+          "name": "Bangumi动画",
+          "type": "Template",
+          "command": false,
+          "templatePath": "我的动漫/属性模板/T-动画.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:CN}}"
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        }
+      ],
+      "collapsed": true
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": "all",
+  "version": "2.9.4",
+  "globalVariables": {},
+  "onePageInputEnabled": false,
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": false,
+  "showCaptureNotification": true,
+  "showInputCancellationNotification": false,
+  "enableTemplatePropertyTypes": false,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000
+          }
+        ],
+        "autoSyncModels": false,
+        "modelSource": "modelsDev"
+      },
+      {
+        "name": "Gemini",
+        "endpoint": "https://generativelanguage.googleapis.com",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gemini-1.5-pro",
+            "maxTokens": 1000000
+          },
+          {
+            "name": "gemini-1.5-flash",
+            "maxTokens": 1000000
+          },
+          {
+            "name": "gemini-1.5-flash-8b",
+            "maxTokens": 1000000
+          }
+        ],
+        "autoSyncModels": false,
+        "modelSource": "modelsDev"
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true,
+    "removeMacroIndirection": true,
+    "migrateFileOpeningSettings": true,
+    "setProviderModelDiscoveryMode": true
+  }
+}

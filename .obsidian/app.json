@@ -1,0 +1,12 @@
+{
+  "strictLineBreaks": true,
+  "readableLineLength": false,
+  "autoPairMarkdown": false,
+  "autoPairBrackets": false,
+  "promptDelete": false,
+  "livePreview": false,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./"
+}
