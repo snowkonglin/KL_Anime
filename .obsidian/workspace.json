@@ -11,13 +11,14 @@
             "id": "473acd4023a3bbf2",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "动漫数据库.base",
-                "viewName": "视图"
+                "file": "我的动漫/主页/刀剑神域_第二季.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-layout-grid",
-              "title": "动漫数据库"
+              "icon": "lucide-file",
+              "title": "刀剑神域_第二季"
             }
           }
         ]
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "刀剑神",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "动漫数据库.base",
+                "file": "我的动漫/主页/刀剑神域_第二季.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "动漫数据库 的反向链接列表"
+              "title": "刀剑神域_第二季 的反向链接列表"
             }
           },
           {
@@ -112,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "动漫数据库.base",
+                "file": "我的动漫/主页/刀剑神域_第二季.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "动漫数据库 的出链列表"
+              "title": "刀剑神域_第二季 的出链列表"
             }
           },
           {
@@ -155,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "动漫数据库.base",
+                "file": "我的动漫/主页/刀剑神域_第二季.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "动漫数据库 的大纲"
+              "title": "刀剑神域_第二季 的大纲"
             }
           }
         ]
@@ -183,5 +185,27 @@
     }
   },
   "active": "473acd4023a3bbf2",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季/クラレンス.jpg",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季/シャーリー__霧島舞.jpg",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季/ターニャ___楠リサ.jpg",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季/ローザ__野口詩織.jpg",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季/ソフィー__藤澤カナ.jpg",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季/アンナ___安中萌.jpg",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季/エヴァ__新渡戸咲.jpg",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季/トーマ___ミラナ・シドロワ.jpg",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季/フカ次郎___篠原美優.jpg",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季/エム___阿僧祇豪志.jpg",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季/ピトフーイ___神崎エルザ.jpg",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online_第二季",
+    "我的动漫/主页/刀剑神域外传_Gun_Gale_Online_第二季.md",
+    "我的动漫/主页/characters/刀剑神域外传_Gun_Gale_Online",
+    "我的动漫/主页/刀剑神域外传_Gun_Gale_Online.md",
+    "我的动漫/主页/剧场版_刀剑神域_进击篇_无星之夜的咏叹调.md",
+    "我的动漫/主页/刀剑神域_爱丽丝篇_异界战争_-终章-.md",
+    "我的动漫/主页/刀剑神域_爱丽丝篇.md",
+    "我的动漫/主页/埃罗芒阿老师.md",
+    "我的动漫/主页/ReLIFE.md",
+    "动漫数据库.base"
+  ]
 }
