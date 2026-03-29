@@ -381,7 +381,7 @@ def get_character_list(anime, subject_id):
         role = Role()
         role.roleName = ch.get("name") or ch.get("role_name", "")
         # 过滤乱入数据
-        if role.roleName in ["圣光君", "ナレーション"]:
+        if role.roleName in ["圣光君", "ナレーション","モブキャラクター"] or ch.get("relation")=="客串":
             continue
         role.isMainRole = ch.get("relation") == "主角"
         role.summary = ch.get("summary")
